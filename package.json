@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "bundle": "spago build && purs-backend-es build && webpack --mode production",
+    "preview": "pnpm bundle && http-server ./dist",
+    "dev": "spago build && webpack serve --open --mode development"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.9.0",
+    "purescript": "^0.15.15",
+    "purescript-language-server": "^0.18.0",
+    "purs-backend-es": "^1.4.2",
+    "purs-tidy": "^0.11.0",
+    "spago": "^0.93.30",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^5.10.0"
+  }
+}
