@@ -1,2 +1,1 @@
-import * as stylesImpl from "css/Index.css";
-export const styles = stylesImpl;
+export * as styles from "css/Index.css";
